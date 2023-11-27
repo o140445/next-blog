@@ -1,0 +1,94 @@
+.container {
+    position: sticky;
+    z-index: 999;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 5px 27px -8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.wapper {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.left {
+    font-size: 36px;
+    color: black;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 1.25em;
+}
+
+.right > div > img {
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logout {
+    padding: 0.4rem 1rem;
+    bottom: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #10c142;
+    border: none;   /* 移除按钮边框 */
+    outline: none;  /* 移除按钮点击时的外边框样式 */
+}
+
+.create {
+    color: #444;
+    font-size: 18px;
+    font-weight: 30;
+}
+
+.login {
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.25em;
+    font-size: 17px;
+    background-color: #10c142;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #efefef;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    top: 2.75rem;
+    right: -3.5rem;
+    border-radius: 8px;
+}
+
+.dropdown > :nth-child(2) {
+    margin-top: 1rem;
+}
+
+.dropdown > * {
+    cursor: pointer;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+}
