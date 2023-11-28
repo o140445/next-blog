@@ -16,6 +16,7 @@ const Footer = () => {
                     <h2>导航</h2>
                     <Link href="/about">关于</Link>
                     <Link href="/category">分类</Link>
+                    <Link href="/article">文章</Link>
                 </div>
 
                 <div className={classes.col}>
