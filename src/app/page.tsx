@@ -5,7 +5,8 @@ import BlogCard from './components/blogCard/BlogCard'
 
 export default function Home() {
   return (
-    <div className={classes.contaoner}>
+    <div className={classes.container}>
+      <h2> 欢迎来到我的Blog </h2>
       <div className={classes.wrapper}>
         {blogs.map((blog) => (
           <BlogCard key={blog.title} blog={blog} />

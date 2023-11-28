@@ -7,12 +7,12 @@ import image4 from '../../../public/image/images4.jpg'
 export const blogs = [
     {
         "title":"blog-1",
-        "desc":"test 01",
+        "desc":"特性：xxxx",
         "img":image1
     },
     {
         "title":"blog-3",
-        "desc":"test 02",
+        "desc":"特性：超市超市超市速度速度",
         "img":image2
     },
     {
